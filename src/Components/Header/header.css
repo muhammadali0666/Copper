@@ -1,0 +1,125 @@
+.header__inner {
+  padding-top: 44px;
+}
+
+.header {
+  background-image: url(../../assets/img/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* height: 100vh; */
+}
+
+.header-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 77px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+.header__item+.header__item {
+  margin-left: 50px;
+}
+
+.header__item__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 96.4%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header__item__link:hover {
+  text-align: center;
+  text-decoration: underline;
+  background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header__end__list {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header__end__item {
+  background-color: #fff;
+  padding: 50px 10px 4px 10px;
+}
+
+.header__end__item+.header__end__item {
+  margin-left: 20px;
+}
+
+.header__end__img {
+  width: 24px;
+  height: 24px;
+}
+.header__bottom {
+  padding-top: 149px;
+  padding-bottom: 149px;
+}
+.header__bottom__box {
+  top: 0;
+  left: 0;
+  max-width: 737px;
+  margin-left: -300px;
+}
+.header__bottom__paragraph {
+  font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 74.9%;
+color: #FFFFFF;
+padding-bottom: 50px;
+margin-bottom: 50px;
+border-bottom: 1px solid #ffffff;
+}
+.header__bottom__text {
+  font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 96.4%;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+.header__bottom__p + .header__bottom__p {
+  margin-left: 109px;
+}
+.header__bottom__mini{
+  display: flex;
+  align-items: center;
+  margin-bottom: 41px;
+}
+.header__bottom__p {
+  font-style: normal;
+font-weight: 100;
+font-size: 30px;
+line-height: 96.4%;
+color: #FFFFFF;
+}
+.header__bottom__btn {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  border: 1px solid #E4A16F;
+  padding: 16px 131px;
+  font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 96.4%;
+text-align: center;
+color: #FFFFFF;
+}
