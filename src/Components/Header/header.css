@@ -105,12 +105,16 @@ margin-bottom: 40px;
   align-items: center;
   margin-bottom: 41px;
 }
+
 .header__bottom__p {
   font-style: normal;
 font-weight: 100;
 font-size: 30px;
 line-height: 96.4%;
 color: #FFFFFF;
+}
+.header__bottom__p__next {
+  font-weight: 900;
 }
 .header__bottom__btn {
   background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
