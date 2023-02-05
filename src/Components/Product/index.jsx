@@ -3,7 +3,7 @@ import "./product.css"
 export const Product = () => {
   return (
     <section className="product">
-      <div className="conrainer">
+      <div className="container">
         <div className="product__inner">
 
           <h2 className="product__paragraph">
@@ -26,16 +26,13 @@ export const Product = () => {
               Медная посуда
               </p>
             </li>
-          </ul>
-
-          <ul className="product__list">
             <li className="product__item product__item__four">
-              <p className="product__text">
+              <p className="product__text product__text__four">
               Аксессуары из меди
               </p>
             </li>
             <li className="product__item product__item__five">
-              <p className="product__text">
+              <p className="product__text product__text__five">
               Индивидуальный заказ
               </p>
             </li>
