@@ -1,0 +1,10 @@
+.worker__inner {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.card +.card {
+  margin-left: 31px;
+}

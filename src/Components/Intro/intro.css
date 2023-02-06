@@ -1,0 +1,44 @@
+.intro {
+  background-image: url(../../assets/img/bg-3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.intro__inner {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.intro__box {
+  max-width: 533px;
+}
+.intro__paragaph {
+  font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 74.9%;
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+.intro__text {
+  font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 96.4%;
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+.intro__btn {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 96.4%;
+text-align: center;
+color: #FFFFFF;
+padding: 16px 78px;
+border: #E4A16F;
+}
+.intro__btn:hover {
+color: #E4A16F;
+background: linear-gradient(92.18deg, #ffffff 20.13%, #ffffff 92.93%);
+}
