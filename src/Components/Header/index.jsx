@@ -1,16 +1,23 @@
-import React from "react";
+import React,{useState} from "react";
 import "./header.css";
 import Logo from "../../assets/img/logo.png";
 import Link from "../../assets/img/link.png";
 import User from "../../assets/img/user.png";
 import Shopping from "../../assets/img/shopping.png";
-import Carousel from "react-elastic-carousel"
+import Carousel from "react-elastic-carousel";
+import Union from "../../assets/img/Union.png";
 
 export const Header = () => {
 
-  // const breakPoint = [
-  //   {width: 0, itemShowTo: 1}
-  // ]
+  const [theme, setTheme] = useState(Link);
+
+  const handleClick = () => {
+    if(theme === Union){
+      setTheme(Link)
+    }else if(theme === Link){
+      setTheme(Union)
+    }
+  }
 
   return (
     <div className="header">
@@ -58,11 +65,12 @@ export const Header = () => {
             <ul className="header__end__list">
               <li className="header__end__item">
                 <img
-                  src={Link}
+                  src={theme}
                   alt="img"
                   className="header__end__img"
                   width={24}
                   height={24}
+                  onClick={handleClick}
                 />
               </li>
               <li className="header__end__item">
@@ -88,36 +96,35 @@ export const Header = () => {
 
           <div className="header__bottom">
             <Carousel>
-            <div className="header__bottom__box">
-              <h1 className="header__bottom__paragraph">Хит продаж</h1>
-              <p className="header__bottom__text">
-                Дистиллятор для эфирных масел
-              </p>
-              <div className="header__bottom__mini">
-                <p className="header__bottom__p">Цена</p>
-                <p className="header__bottom__p header__bottom__p__next">
-                  4 906 грн
+              <div className="header__bottom__box">
+                <h1 className="header__bottom__paragraph">Хит продаж</h1>
+                <p className="header__bottom__text">
+                  Дистиллятор для эфирных масел
                 </p>
+                <div className="header__bottom__mini">
+                  <p className="header__bottom__p">Цена</p>
+                  <p className="header__bottom__p header__bottom__p__next">
+                    4 906 грн
+                  </p>
+                </div>
+                <button className="header__bottom__btn">Купить</button>
               </div>
-              <button className="header__bottom__btn">Купить</button>
-            </div>
 
-            <div className="header__bottom__box">
-              <h1 className="header__bottom__paragraph">О нас</h1>
-              <p className="header__bottom__text">
-              Мы любим все, что сделано из меди
-              </p>
-              <div className="header__bottom__mini">
-                <p className="header__bottom__p">Цена</p>
-                <p className="header__bottom__p header__bottom__p__next">
-                  3 906 грн
+              <div className="header__bottom__box">
+                <h1 className="header__bottom__paragraph">О нас</h1>
+                <p className="header__bottom__text">
+                  Мы любим все, что сделано из меди
                 </p>
+                <div className="header__bottom__mini">
+                  <p className="header__bottom__p">Цена</p>
+                  <p className="header__bottom__p header__bottom__p__next">
+                    3 906 грн
+                  </p>
+                </div>
+                <button className="header__bottom__btn">Купить</button>
               </div>
-              <button className="header__bottom__btn">Купить</button>
-            </div>
             </Carousel>
           </div>
-
         </div>
       </div>
     </div>

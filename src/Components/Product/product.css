@@ -2,15 +2,17 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 .product__paragraph {
   font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 74.9%;
-text-align: center;
-color: #031412;
-margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 74.9%;
+  text-align: center;
+  color: #031412;
+  margin-bottom: 40px;
 }
+
 .product__list {
   display: flex;
   align-items: center;
@@ -19,59 +21,69 @@ margin-bottom: 40px;
   grid-template-columns: 445px 445px 445px;
   gap: 32px;
 }
-.product__item{
+
+.product__item {
   height: 491px;
   position: relative;
 }
+
 .product__item__one {
   background-image: url(../../assets/img/Mask.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
 .product__text {
   font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 96.4%;
-text-align: center;
-color: #FFFFFF;
-position: absolute;
-bottom: 27px;
-margin-left: 27px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 96.4%;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 27px;
+  margin-left: 27px;
 }
+
 .product__text__four {
-margin-bottom: 27px;
-margin-left: 47px;
+  margin-bottom: 27px;
+  margin-left: 47px;
 }
+
 .product__text__five {
   margin-bottom: 27px;
   margin-left: 47px;
 }
+
 .product__item__two {
   background-image: url(../../assets/img/mask-group.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
 .product__item__three {
   background-image: url(../../assets/img/three.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
 .product__item__four {
   background-image: url(../../assets/img/four.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
 .product__item__five {
   background-image: url(../../assets/img/five.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
 .product__item__six {
   background-image: url(../../assets/img/six.png);
   background-repeat: no-repeat;

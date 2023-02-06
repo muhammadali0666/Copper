@@ -1,0 +1,113 @@
+.other__products {
+  padding-bottom: 80px;
+}
+
+.products__inner {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__paragraph {
+  font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 74.9%;
+text-align: center;
+color: #031412;
+margin-bottom: 40px;
+}
+.products__list {
+  display: flex;
+  align-items: center;
+}
+.products__item + .products__item{
+margin-left: 30px;
+}
+.products__box {
+  display: flex;
+  margin-top: 29px;
+}
+.products__p {
+  font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 96.4%;
+color: #031412;
+}
+.products__bold {
+  margin-left: auto;
+  font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 96.4%;
+color: #031412;
+}
+.products__btn {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  margin-top: 100px;
+  font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 96.4%;
+text-align: center;
+color: #FFFFFF;
+padding: 16px 76px;
+border:  1px solid #E4A16F;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.products__btn:hover {
+  background: linear-gradient(92.18deg, #ffffff 20.13%, #ffffff 92.93%);
+  color: #E4A16F;
+}
+.products__img {
+  position: relative;
+  width: 446px;
+  height: 491px;
+}
+.products__img__one{
+  background-image: url(../../assets/img/Mask.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.products__img__two{
+  background-image: url(../../assets/img/mask-group.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.products__img__three{
+  background-image: url(../../assets/img/three.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.product__mini__box {
+  padding: 31px 21px;
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+}
+.product__sale__p{
+  display: none;
+}
+.products__img:hover .product__sale {
+  background: #9B0000;
+  display: inline-block;
+  padding: 8px 18px;
+  margin-top: 27px;
+}
+.products__img:hover .product__sale__p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 96.4%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: inline-block;
+}

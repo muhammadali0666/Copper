@@ -127,3 +127,14 @@ line-height: 96.4%;
 text-align: center;
 color: #FFFFFF;
 }
+.header__bottom__btn:hover {
+  background: linear-gradient(92.18deg, #ffffff 20.13%, #ffffff 92.93%);
+  color: #E4A16F;
+}
+
+.light{
+  background-color: #ff5100;
+}
+.dark{
+  background-color: #00bfff;
+}
