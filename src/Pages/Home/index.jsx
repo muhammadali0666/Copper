@@ -1,6 +1,7 @@
 import React from "react";
 import { Choice } from "../../Components/Choice";
 import { Discount } from "../../Components/Discount";
+import { Footer } from "../../Components/Footer";
 import { Header } from "../../Components/Header";
 import { Intro } from "../../Components/Intro";
 import { Luchshi } from "../../Components/Luchshi";
@@ -21,6 +22,7 @@ export const Home = () => {
       <Discount />
       <Worker />
       <Choice/>
+      <Footer/>
     </>
   );
 };
